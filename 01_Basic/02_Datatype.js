@@ -30,6 +30,28 @@ let scoreNumber = Number(score);
 // console.log(typeof scoreNumber);
 
 
+const Id = Symbol('12554');
+const anotherId = Symbol('12554')
+
+console.log( Id === anotherId);
+
+/*   **************** Non-Primitive DataType********************** */
+
+// array ,object, function
+
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+
+let dummyObject = {
+    name: "dipal",
+    age: 55,
+ };
+
+ const functions = function(){
+    console.log("hello dipal");
+    
+ }
+
 
 
 /*  **********************Operations**************************** */
@@ -60,5 +82,5 @@ let gameCounter = 100;
 
 gameCounter++;
 
-console.log(gameCounter);
+//console.log(gameCounter);
 
